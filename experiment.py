@@ -80,7 +80,7 @@ def run(destination: Path) -> None:
     rows = [row for n in (64, 256) for fan in (1, 3) for missing in (0.0, 0.05, 0.2)
             for seed in SEEDS for row in trial(seed, n, fan, missing)]
     with (destination / 'trials.csv').open('w', newline='', encoding='utf-8') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator='\n')
         writer.writeheader(); writer.writerows(rows)
     summary = []
     for missing in (0.0, 0.05, 0.2):
