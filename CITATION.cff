@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite the benchmark separately from the unpublished manuscript; no DOI has been assigned."
+type: software
+title: Replay Integrity Lab
+version: 0.1.0
+date-released: 2026-10-21
+authors:
+  - family-names: Looney
+    given-names: Matthew
+    affiliation: Magnexis
+    orcid: https://orcid.org/0009-0007-0025-8000
+repository-code: https://github.com/theworker02/replay-integrity-lab
+abstract: "Exploratory synthetic selective-replay experiments with incomplete dependency information and fresh-execution audit cost accounting."

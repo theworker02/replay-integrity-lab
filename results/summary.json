@@ -1,0 +1,122 @@
+[
+  {
+    "missing": 0.0,
+    "policy": "full",
+    "trials": 160,
+    "incorrect_runs": 0,
+    "incorrect_fraction": 0.0,
+    "mean_work_fraction": 1.0
+  },
+  {
+    "missing": 0.0,
+    "policy": "direct",
+    "trials": 160,
+    "incorrect_runs": 137,
+    "incorrect_fraction": 0.85625,
+    "mean_work_fraction": 0.056103515625
+  },
+  {
+    "missing": 0.0,
+    "policy": "transitive",
+    "trials": 160,
+    "incorrect_runs": 0,
+    "incorrect_fraction": 0.0,
+    "mean_work_fraction": 0.3628662109375
+  },
+  {
+    "missing": 0.0,
+    "policy": "audit-0.02",
+    "trials": 160,
+    "incorrect_runs": 0,
+    "incorrect_fraction": 0.0,
+    "mean_work_fraction": 0.4702880859375
+  },
+  {
+    "missing": 0.0,
+    "policy": "audit-0.10",
+    "trials": 160,
+    "incorrect_runs": 0,
+    "incorrect_fraction": 0.0,
+    "mean_work_fraction": 0.5880615234375
+  },
+  {
+    "missing": 0.05,
+    "policy": "full",
+    "trials": 160,
+    "incorrect_runs": 0,
+    "incorrect_fraction": 0.0,
+    "mean_work_fraction": 1.0
+  },
+  {
+    "missing": 0.05,
+    "policy": "direct",
+    "trials": 160,
+    "incorrect_runs": 140,
+    "incorrect_fraction": 0.875,
+    "mean_work_fraction": 0.05419921875
+  },
+  {
+    "missing": 0.05,
+    "policy": "transitive",
+    "trials": 160,
+    "incorrect_runs": 74,
+    "incorrect_fraction": 0.4625,
+    "mean_work_fraction": 0.341650390625
+  },
+  {
+    "missing": 0.05,
+    "policy": "audit-0.02",
+    "trials": 160,
+    "incorrect_runs": 58,
+    "incorrect_fraction": 0.3625,
+    "mean_work_fraction": 0.5396240234375
+  },
+  {
+    "missing": 0.05,
+    "policy": "audit-0.10",
+    "trials": 160,
+    "incorrect_runs": 46,
+    "incorrect_fraction": 0.2875,
+    "mean_work_fraction": 0.7066162109375
+  },
+  {
+    "missing": 0.2,
+    "policy": "full",
+    "trials": 160,
+    "incorrect_runs": 0,
+    "incorrect_fraction": 0.0,
+    "mean_work_fraction": 1.0
+  },
+  {
+    "missing": 0.2,
+    "policy": "direct",
+    "trials": 160,
+    "incorrect_runs": 143,
+    "incorrect_fraction": 0.89375,
+    "mean_work_fraction": 0.04560546875
+  },
+  {
+    "missing": 0.2,
+    "policy": "transitive",
+    "trials": 160,
+    "incorrect_runs": 125,
+    "incorrect_fraction": 0.78125,
+    "mean_work_fraction": 0.2626953125
+  },
+  {
+    "missing": 0.2,
+    "policy": "audit-0.02",
+    "trials": 160,
+    "incorrect_runs": 84,
+    "incorrect_fraction": 0.525,
+    "mean_work_fraction": 0.6110595703125
+  },
+  {
+    "missing": 0.2,
+    "policy": "audit-0.10",
+    "trials": 160,
+    "incorrect_runs": 47,
+    "incorrect_fraction": 0.29375,
+    "mean_work_fraction": 0.8796875
+  }
+]
