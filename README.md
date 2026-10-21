@@ -2,7 +2,7 @@
 
 A reproducible exploratory computer-science study of selective workflow replay under missing dependencies. Author: Matthew Looney, Magnexis, [ORCID](https://orcid.org/0009-0007-0025-8000).
 
-Status: pilot implemented and executed; manuscript draft; no submission, DOI, peer review, or real-project validation. The repository is initially private for author review. The correctness argument is standard and narrowly scoped. Novelty has not been established.
+Status: an in-memory pilot and a controlled on-disk file-processing experiment have been executed; manuscript draft v0.2; no submission, DOI, peer review, or real-project validation. The repository is initially private for author review. The correctness argument is standard and narrowly scoped. Novelty has not been established.
 
 ## Run
 
@@ -11,14 +11,16 @@ Python 3.10+ on Windows, macOS or Linux. No dependencies, account, GPU, or paid 
 ```sh
 python -m unittest discover -v
 python experiment.py
+python file_benchmark.py
 ```
 
-The fixed pilot generates 480 synthetic scenarios and 2,400 policy rows. Results are overwritten deterministically. Unit-cost task counts are simulated work, not measured application speedups. The benchmark does not execute imported scripts or external workflows.
+The fixed pilot generates 480 synthetic scenarios and 2,400 policy rows. The controlled file-processing experiment generates 96 scenarios and 384 policy rows using only temporary generated files. Results are overwritten deterministically. Unit-cost task counts are not measured application speedups. Neither benchmark executes imported scripts or external workflows.
 
 ## Files
 
-- `experiment.py`: DAG generation, missing-edge injection, replay and fresh-execution audits.
-- `test_experiment.py`: behavior and regression tests.
+- `experiment.py`: in-memory DAG generation, missing-edge injection, replay and fresh-execution audits.
+- `file_benchmark.py`: controlled on-disk workload with real temporary input/output files and elapsed-time recording.
+- `test_experiment.py`, `test_file_benchmark.py`: behavior and regression tests.
 - `results/`: trial data, aggregate results and checksum manifest.
 - `paper.md`, `paper.pdf`: manuscript source and reading copy.
 - `PROTOCOL.md`: future validation design, written after seeing pilot results.
@@ -26,7 +28,7 @@ The fixed pilot generates 480 synthetic scenarios and 2,400 policy rows. Results
 
 ## Pilot finding
 
-At 5% missing edges, 10% auditing reduces incorrect runs from 74/160 to 46/160, with mean work equal to 70.7% of full replay. This fails the proposed goal of halving errors below 75% work. At 20% missing edges it halves errors but exceeds the work goal. Neither result establishes safe replay.
+At 5% missing edges, the in-memory 10% audit reduces incorrect runs from 74/160 to 46/160 at 70.7% mean task work; the controlled file run reduces 13/32 to 7/32 at 79.3%. At 20% omission, the controlled file run reduces 22/32 to 7/32 but costs 105.6% of full task work. The combined result rejects a blanket claim that sparse auditing makes incomplete dependency data safe.
 
 ## Architecture and security
 

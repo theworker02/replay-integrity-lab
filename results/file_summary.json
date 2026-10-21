@@ -1,0 +1,98 @@
+[
+  {
+    "missing": 0.0,
+    "policy": "full",
+    "trials": 32,
+    "incorrect_runs": 0,
+    "mean_task_work_fraction": 1.0,
+    "median_elapsed_seconds": 0.07088150002527982
+  },
+  {
+    "missing": 0.0,
+    "policy": "transitive",
+    "trials": 32,
+    "incorrect_runs": 0,
+    "mean_task_work_fraction": 0.439697265625,
+    "median_elapsed_seconds": 0.06564534999779426
+  },
+  {
+    "missing": 0.0,
+    "policy": "audit-0.02",
+    "trials": 32,
+    "incorrect_runs": 0,
+    "mean_task_work_fraction": 0.54541015625,
+    "median_elapsed_seconds": 0.13250674997107126
+  },
+  {
+    "missing": 0.0,
+    "policy": "audit-0.10",
+    "trials": 32,
+    "incorrect_runs": 0,
+    "mean_task_work_fraction": 0.631591796875,
+    "median_elapsed_seconds": 0.09605205000843853
+  },
+  {
+    "missing": 0.05,
+    "policy": "full",
+    "trials": 32,
+    "incorrect_runs": 0,
+    "mean_task_work_fraction": 1.0,
+    "median_elapsed_seconds": 0.06899505000910722
+  },
+  {
+    "missing": 0.05,
+    "policy": "transitive",
+    "trials": 32,
+    "incorrect_runs": 13,
+    "mean_task_work_fraction": 0.3701171875,
+    "median_elapsed_seconds": 0.09717729999101721
+  },
+  {
+    "missing": 0.05,
+    "policy": "audit-0.02",
+    "trials": 32,
+    "incorrect_runs": 8,
+    "mean_task_work_fraction": 0.655029296875,
+    "median_elapsed_seconds": 0.14601320002111606
+  },
+  {
+    "missing": 0.05,
+    "policy": "audit-0.10",
+    "trials": 32,
+    "incorrect_runs": 7,
+    "mean_task_work_fraction": 0.793212890625,
+    "median_elapsed_seconds": 0.11292655000579543
+  },
+  {
+    "missing": 0.2,
+    "policy": "full",
+    "trials": 32,
+    "incorrect_runs": 0,
+    "mean_task_work_fraction": 1.0,
+    "median_elapsed_seconds": 0.0699604999681469
+  },
+  {
+    "missing": 0.2,
+    "policy": "transitive",
+    "trials": 32,
+    "incorrect_runs": 22,
+    "mean_task_work_fraction": 0.29931640625,
+    "median_elapsed_seconds": 0.09444744998472743
+  },
+  {
+    "missing": 0.2,
+    "policy": "audit-0.02",
+    "trials": 32,
+    "incorrect_runs": 14,
+    "mean_task_work_fraction": 0.694580078125,
+    "median_elapsed_seconds": 0.14772095004445873
+  },
+  {
+    "missing": 0.2,
+    "policy": "audit-0.10",
+    "trials": 32,
+    "incorrect_runs": 7,
+    "mean_task_work_fraction": 1.05615234375,
+    "median_elapsed_seconds": 0.12344110003323294
+  }
+]

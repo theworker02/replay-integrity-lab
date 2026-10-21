@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "sizes": [
+    32,
+    128
+  ],
+  "fan_in": [
+    1,
+    3
+  ],
+  "missing": [
+    0.0,
+    0.05,
+    0.2
+  ],
+  "scenarios": 96,
+  "rows": 384,
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": "55b7f6eeb5e46f42bbfe67f465033059e6e35b9c94ef9d5074f5df04b5b7c284",
+  "trials_sha256": "e16797d1c5bd663fe349588a6a91a19c0b0560622ee81082f72b864837efcaa0"
+}

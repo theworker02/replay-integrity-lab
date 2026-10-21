@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+.file-benchmark-tests/
+results/.file-benchmark-tmp/
