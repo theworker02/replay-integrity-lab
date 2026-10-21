@@ -5,7 +5,7 @@ Matthew Looney - Magnexis
 
 ORCID: https://orcid.org/0009-0007-0025-8000
 
-October 21, 2026 - Draft v0.2 - Not peer reviewed
+October 21, 2026 - Version 1.0 - Not peer reviewed
 
 ## Abstract
 
@@ -138,7 +138,7 @@ Before practical claims, implement read tracking for a small local, side-effect-
 
 ## 11. Reproducibility and availability
 
-The companion repository is https://github.com/theworker02/replay-integrity-lab. It is initially private during author review. A public artifact snapshot and persistent identifier are prerequisites for an independently reproducible public preprint. No DOI has been issued for this draft. The repository includes `experiment.py` and `file_benchmark.py`, their raw CSV outputs, summary JSON files, checksums for the simulation inputs/results, test suites, and a reproducible manuscript source. The source is intentionally dependency-free; Python 3.10 or later is sufficient.
+The companion repository is https://github.com/theworker02/replay-integrity-lab. It is a public versioned release containing the experiment code and evidence needed to reproduce the reported synthetic runs. A persistent archive identifier is recorded with the release record after archival deposition. The repository includes `experiment.py` and `file_benchmark.py`, their raw CSV outputs, summary JSON files, checksums for the simulation inputs/results, test suites, and a reproducible manuscript source. The source is intentionally dependency-free; Python 3.10 or later is sufficient.
 
 Run `python -m unittest discover -v`, `python experiment.py`, and `python file_benchmark.py` from the repository root. The first benchmark regenerates `results/trials.csv`, `results/summary.json`, and `results/manifest.json`; the second regenerates `results/file_trials.csv` and `results/file_summary.json`. Ten unit/regression tests cover transitive propagation, audit fallback, empty audits, repeatability, full-reference behavior, complete dependency tracking in the on-disk runner, and actual output changes after filesystem input mutation. Tests do not substitute for independent implementation or real-workload evaluation.
 
@@ -171,7 +171,7 @@ The worked trace does not introduce a new algorithm. Its purpose is to connect t
 
 ## Declarations
 
-Author: Matthew Looney, Magnexis. ORCID: 0009-0007-0025-8000. AI assistance: OpenAI Codex assisted with study design, implementation, execution, literature discovery, and drafting. Author review of references, claims, licenses, and the final manuscript is pending. No claim of independent human verification is made. No human-subject data were collected. Commercial interest: the author develops software through Magnexis, which may benefit from workflow research. No external funding is reported in this draft; the author should confirm that statement before submission. This manuscript is a working preprint draft, not an accepted or peer-reviewed publication. The v0.2 revision adds a controlled filesystem experiment conducted after the v0.1 draft. It does not alter the status of the work as exploratory.
+Author: Matthew Looney, Magnexis. ORCID: 0009-0007-0025-8000. AI assistance: OpenAI Codex assisted with study design, implementation, execution, literature discovery, and drafting. The author authorized public release of this version. No claim of independent human verification is made. No human-subject data were collected. Commercial interest: the author develops software through Magnexis, which may benefit from workflow research. No external funding is reported. This manuscript is a versioned preprint, not an accepted or peer-reviewed publication. The controlled filesystem experiment was added after the initial in-memory pilot; it does not alter the exploratory status of the work.
 
 ## References
 

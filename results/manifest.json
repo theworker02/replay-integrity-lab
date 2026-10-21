@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "1.0.0",
   "seeds": [
     0,
     1,
@@ -56,8 +56,8 @@
     0.2
   ],
   "rows": 2400,
-  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
   "platform": "Windows-11-10.0.26200-SP0",
-  "source_sha256": "9bf6101c2a28eb3f6a1708191c892556ead3f2335ce3469b8dbe04541a08a570",
+  "source_sha256": "cb0c90c4488347593a297d2b0e2732346fcae10a284d3dbc5559854c8f7b0024",
   "trials_sha256": "ec78ab791157d082c8bca4f946bd9feae46b5a77078efc208982e27389045ceb"
 }

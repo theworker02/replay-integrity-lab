@@ -2,7 +2,7 @@
 
 A reproducible exploratory computer-science study of selective workflow replay under missing dependencies. Author: Matthew Looney, Magnexis, [ORCID](https://orcid.org/0009-0007-0025-8000).
 
-Status: an in-memory pilot and a controlled on-disk file-processing experiment have been executed; manuscript draft v0.2; no submission, DOI, peer review, or real-project validation. The repository is initially private for author review. The correctness argument is standard and narrowly scoped. Novelty has not been established.
+Status: version 1.0.0 packages an executed in-memory pilot and a controlled on-disk file-processing experiment, with a non-peer-reviewed preprint. Archive identifiers and public-record links are recorded in `SUBMISSION.md` after their deposits complete. There is no peer review or real-project validation. The correctness argument is standard and narrowly scoped. Novelty has not been established.
 
 ## Run
 
@@ -36,4 +36,4 @@ The declared dependency graph schedules selective work; the actual graph evaluat
 
 ## License and contribution status
 
-No distribution license has been selected by the author yet. Do not interpret a public repository as a grant of reuse rights. Select software and manuscript/data licenses before a public archival deposit. Contributions should preserve deterministic seeds, report all outcomes, and keep prospective validation separate from this pilot.
+No distribution license has been selected by the author. Do not interpret a public repository or archival deposit as a grant of reuse rights. Contributions should preserve deterministic seeds, report all outcomes, and keep prospective validation separate from this pilot.

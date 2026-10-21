@@ -1,8 +1,8 @@
-# Submission preparation - checked October 21, 2026
+# Submission record - version 1.0.0 - October 21, 2026
 
 Author: Matthew Looney, Magnexis. ORCID: https://orcid.org/0009-0007-0025-8000 (supplied and confirmed by the author).
 
-No manuscript has been submitted and no DOI has been assigned. The GitHub repository begins private. Review the paper and references, resolve licensing and funding declarations, publish a reproducible artifact snapshot, and verify the selected venue's scope before submission.
+This file records the publication path for the versioned release. Complete archive URLs and the DOI only after the respective services have confirmed their records. The manuscript is not peer reviewed, and its experimental results remain exploratory.
 
 ## OSF
 
@@ -30,6 +30,6 @@ Title: Selective Replay Under Incomplete Dependency Information: An exploratory 
 
 Keywords: incremental computation; selective replay; dependency tracking; missing dependencies; audit sampling; reproducibility
 
-Resource status: unpublished exploratory manuscript with synthetic pilot results. Suggested subject area for review: computer science / software engineering. Abstract: use the manuscript abstract. Author contact email, distribution licenses and final funding declaration still require author confirmation.
+Resource status: public versioned exploratory manuscript with synthetic pilot results. Suggested subject area for review: computer science / software engineering. Abstract: use the manuscript abstract. No funding is declared. No distribution license has been selected; retain copyright unless the author later chooses an explicit license.
 
-AI assistance is disclosed in the manuscript. Check the selected venue's current policy before submission. No author signature, certification of originality, license acceptance, submission or publication has been performed automatically.
+AI assistance is disclosed in the manuscript. Check the selected venue's current policy before submission. This package does not represent a proof of general workflow correctness or deployed-system performance.

@@ -9,7 +9,7 @@ import platform
 import sys
 from pathlib import Path
 
-VERSION = '0.1.0'
+VERSION = '1.0.0'
 SEEDS = range(40)
 
 def digest(value: object) -> str:

@@ -160,7 +160,7 @@ def run(destination: Path) -> None:
                 median_elapsed_seconds=statistics.median(r["elapsed_seconds"] for r in group)))
     (destination / "file_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
     manifest = {
-        "version": "0.2.0",
+        "version": "1.0.0",
         "seeds": list(SEEDS), "sizes": list(SIZES), "fan_in": list(FAN_INS),
         "missing": list(MISSING), "scenarios": len(rows) // 4, "rows": len(rows),
         "python": sys.version, "platform": platform.platform(),
