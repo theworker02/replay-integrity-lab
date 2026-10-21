@@ -2,7 +2,7 @@
 
 ## 1.0.0 - 2026-10-21
 
-First public, versioned research release. It packages the executed in-memory and controlled filesystem experiments, raw trial data, checksum manifests, regression tests, an expanded ten-page non-peer-reviewed preprint, citation metadata, and archival submission metadata. The empirical claims remain exploratory and bounded to the synthetic deterministic workloads described in the manuscript.
+First public, versioned research release. It packages the executed in-memory and controlled filesystem experiments, raw trial data, checksum manifests, regression tests, an expanded ten-page non-peer-reviewed preprint, citation metadata, and archival submission metadata. The empirical claims remain exploratory and bounded to the synthetic deterministic workloads described in the manuscript. The canonical version DOI is https://doi.org/10.5281/zenodo.23545812; the release is also cross-linked through OSF and ORCID.
 
 ## 0.2.0 - 2026-10-21
 
